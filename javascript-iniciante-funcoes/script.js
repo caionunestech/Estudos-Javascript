@@ -1,6 +1,14 @@
 /*
 Funções
+-------------------
+MODELO DE FUNCTION
+-------------------
+function nomedaFunction (parâmetro) {
+  console.log(parâmetro)
+}
 
+nomeDaFunction(argumento)
+-------------------
 Bloco de código que pode ser executado e reutilizado. Valores podem ser passados por uma função e a mesma retorna outro valor.
 
 function nomeDaFuncion() ---dentro do paranteses pode ou não ter PARÂMETROS
@@ -62,3 +70,29 @@ addEventListener ('click', function() { // evento - 1 argumento - 2 argumento
 //Função anônima 
   console.log('Clicou')
 })
+
+/*
+Quando não definimos o RETURN, o código irá retornar UNDEFINED.
+
+*/
+
+/*
+let num1 = Number(prompt("Digite o primeiro número:"))
+let num2 = Number(prompt("Digite o segundo nome:"))
+let operacao = prompt("Digite a operação que você deseja \n(1)- Soma \n (2) - Subtração")
+
+
+if(operacao == 1 ){
+    function conta(a,b){
+        alert(a+b)
+    }
+    conta(num1,num2)
+} else if(operacao == 2){
+    function conta(a,b){
+        alert(a-b)
+    }
+    conta(num1,num2)
+} else {
+    alert("Não é nenhuma dessas opções")
+}
+*/
